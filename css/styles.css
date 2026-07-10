@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+header {
+    /* background-color: red; */
+    text-align: center;
+    font-size: 32px;
+}
+
+section {
+    width: 35%;
+    /* background-color: blue; */
+    height: auto;
+    margin: 5% auto;
+    color: white;
+}
+
+.input-box {
+    display: grid;
+    grid-template-columns: 140px 200px;
+    gap: 10px 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+#results {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.input-box label {
+    margin-bottom: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.input-box input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 0;
+    outline: 2px solid black;
+    width: 200px;
+    font-size: 18px;
+}
+
+
+.cal-box {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cal-box button {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+
